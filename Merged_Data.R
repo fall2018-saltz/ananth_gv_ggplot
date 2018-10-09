@@ -6,3 +6,4 @@ merged_data
 
 library(ggplot2)
 plot_population <- qplot(merged_data$POPESTIMATE2017, geom="histogram")
+plot_murder_rate <- qplot(merged_data$Murder, geom="histogram")
