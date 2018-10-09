@@ -48,3 +48,4 @@ murder_box_plot <- ggplot(data = merged_data, aes(x = "Murder Rate", y = merged_
 
  
 # I feel both the representations are useful at times. It depends upon what we are looking for. Box plots seem more helpful if we are looking at medians, percentiles and aggregations. It gives us an overall Understanding
+# of the data in a fairly simple manner. If i wanted calculations such as quartile distribution on population or any paramenter, i would choose box plot.
