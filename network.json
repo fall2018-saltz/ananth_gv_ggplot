@@ -7,17 +7,6 @@
         {
             "ports": [
                 {
-                    "input": "resultant_dataframe",
-                    "output": "resultant_dataframe",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Load_and_Clean_Data.R",
-            "target": "script7215.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "data",
                     "type": "csv"
                 }
@@ -34,15 +23,9 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "agauribi",
-            "desc": "",
-            "name": "script7215.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "scprc_est_2017_18_pop_res.csv"
         }
     ],
-    "updated_at": "2018-10-09 19:52:08",
+    "updated_at": "2018-10-09 19:52:50",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
