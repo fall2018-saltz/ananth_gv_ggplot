@@ -14,6 +14,16 @@
             ],
             "source": "Load_and_Clean_Data.R",
             "target": "script7215.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "Load_and_Clean_Data.R"
         }
     ],
     "nodes": [
@@ -33,6 +43,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         }
     ],
-    "updated_at": "2018-10-09 19:44:40",
+    "updated_at": "2018-10-09 19:52:08",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
