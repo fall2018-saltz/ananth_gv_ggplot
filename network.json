@@ -54,10 +54,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "agauribi",
             "desc": "",
-            "name": "Merged_Data.R"
+            "name": "Merged_Data.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "Ggplot_population.png"
         }
     ],
-    "updated_at": "2018-10-09 20:22:15",
+    "updated_at": "2018-10-09 21:17:10",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
