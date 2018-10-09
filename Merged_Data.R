@@ -5,4 +5,4 @@ merged_data
 
 
 library(ggplot2)
-qplot(merged_data$POPESTIMATE2017, geom="histogram")
+plot_populaton <- qplot(merged_data$POPESTIMATE2017, geom="histogram")
