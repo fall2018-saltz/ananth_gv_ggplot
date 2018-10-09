@@ -22,6 +22,9 @@ plot_assault <- qplot(merged_data$Assault, geom="histogram")
 plot_rape <- qplot(merged_data$Rape, geom="histogram")
 
 
+
+# The Parameters to be adjusted for other histograms to look fine are to add attributes that make the histogram readable. Currently the histogram is not distributed in the right way 
+
 plot_murder_rate <- qplot(merged_data$Murder, geom="histogram",
       bandwidth = 0.5,
       main = "Histogram for Population",
