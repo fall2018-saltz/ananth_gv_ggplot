@@ -45,6 +45,16 @@
             ],
             "source": "Merged_Data.R",
             "target": "Ggplot_population.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot_murder_rate",
+                    "type": "png"
+                }
+            ],
+            "source": "Merged_Data.R",
+            "target": "Ggplot_murder_rate.png"
         }
     ],
     "nodes": [
@@ -76,6 +86,6 @@
             "name": "Ggplot_murder_rate.png"
         }
     ],
-    "updated_at": "2018-10-09 21:20:26",
+    "updated_at": "2018-10-09 21:21:13",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
