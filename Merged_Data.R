@@ -9,31 +9,32 @@ merged_data <- merge(us_arrest, us_census, by.x = "row.names", by.y = c("NAME"),
 
 # Step B: Explore the Data – Understanding distributions
 
-library(ggplot2)
+library(ggplot2)                                                                                #use ggplot2 library by importing ggplot2
 
 #4)	Create a histogram using GGPLOT for the population and a different histogram for the murder rate
 
-plot_population <- qplot(merged_data$POPESTIMATE2017, geom="histogram")                                    #use ggplot2 library by importing ggplot2
+plot_population <- qplot(merged_data$POPESTIMATE2017, geom="histogram")                         # use qplot function to plot population distribution on a histogram. geom is used to represent what type of graph is used to display            
 
-plot_murder <- qplot(merged_data$Murder, geom="histogram")
+plot_murder <- qplot(merged_data$Murder, geom="histogram")                                        # use qplot function to plot murder distribution on a histogram. geom is used to represent what type of graph is used to display                   
 
-plot_assault <- qplot(merged_data$Assault, geom="histogram")
+plot_assault <- qplot(merged_data$Assault, geom="histogram")                                     # use qplot function to plot assault distribution on a histogram. geom is used to represent what type of graph is used to display            
 
-plot_rape <- qplot(merged_data$Rape, geom="histogram")
+plot_rape <- qplot(merged_data$Rape, geom="histogram")                                           # use qplot function to plot rape distribution on a histogram. geom is used to represent what type of graph is used to display            
 
 
 
 # The Parameters to be adjusted for other histograms to look fine are to add attributes that make the histogram readable. Currently the histogram is not distributed in the right way 
+# due to bucket sizing and range. By adding the labels, bandwidth, fill, title, range and color- histograms are better represented as below.
 
-plot_murder_rate <- qplot(merged_data$Murder, geom="histogram",
-      bandwidth = 0.5,
-      main = "Histogram for Population",
-      xlab = "Murder",
-      ylab = "count",
-      fill = I("blue"),
-      col = I("red"),
+plot_murder_rate_labelled <- qplot(merged_data$Murder, geom="histogram",
+      bandwidth = 0.5,                                                                       
+      main = "Histogram for Population",                     # Title
+      xlab = "Murder",                                       # X axis label
+      ylab = "count",                                        # Y axis label
+      fill = I("blue"),                                      # Color fill for histogram
+      col = I("red"),                                        # Histogram bar boundary color
       alpha = I(.2),
-      xlim = c(0, 20))
+      xlim = c(0, 20))                                       # Range Limit x range
       
       
 population_box_plot <- ggplot(data = merged_data, aes(x = "Population", y = merged_data$POPESTIMATE2017)) + 
