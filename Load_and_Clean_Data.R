@@ -1,7 +1,5 @@
 
-resultant_dataframe <- NULL
-
-clean_data <- function() {           # function defination
+        # function defination
   
   data <- read.csv(url("https://www2.census.gov/programs-surveys/popest/datasets/2010-2017/state/asrh/scprc-est2017-18+pop-res.csv"), stringsAsFactors=FALSE)      # read.csv() function to read the data set. url() to direct the data source.
   length_data <- nrow(data)                                                                                                                               #Compute length using nrow to get index of last row.
@@ -16,8 +14,5 @@ clean_data <- function() {           # function defination
   data$REGION <- NULL                    # set other column name to NULL to be omitted
   data$STATE <- NULL                      # set other column name to NULL to be omitted
   colnames(data)
-  
-  return(data)                           # return clean data frame.
-}
-
-resultant_dataframe <- clean_data()
+                         # return clean data frame.
+resultant_dataframe <- data
