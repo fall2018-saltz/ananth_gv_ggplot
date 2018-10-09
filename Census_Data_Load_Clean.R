@@ -1,5 +1,5 @@
 
-
+#1)	Read in the census dataset (using the function created in HW 3)
 clean_data <- function(data) {           # function defination
   
   length_data <- nrow(data)               # get length of the dataframe using nrow                                                                                                                #Compute length using nrow to get index of last row.
