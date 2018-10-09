@@ -9,7 +9,9 @@ merged_data <- merge(us_arrest, us_census, by.x = "row.names", by.y = c("NAME"),
 
 # Step B: Explore the Data – Understanding distributions
 
-library(ggplot2)                                                                                           #use library by importing ggplot2
+library(ggplot2)
+
+#4)	Create a histogram using GGPLOT for the population and a different histogram for the murder rate#use library by importing ggplot2
 plot_population <- qplot(merged_data$POPESTIMATE2017, geom="histogram")                                    #
 
 
