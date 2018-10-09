@@ -93,15 +93,15 @@
             "name": "Box_plot_population.png"
         },
         {
+            "name": "murder_box_plot.png"
+        },
+        {
             "assigned_to": "agauribi",
             "desc": "",
             "name": "Merged_Data.R",
             "task_status": "in progress"
-        },
-        {
-            "name": "murder_box_plot.png"
         }
     ],
-    "updated_at": "2018-10-09 21:51:53",
+    "updated_at": "2018-10-09 21:52:29",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
