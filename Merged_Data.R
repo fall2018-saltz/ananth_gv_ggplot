@@ -11,8 +11,9 @@ merged_data <- merge(us_arrest, us_census, by.x = "row.names", by.y = c("NAME"),
 
 library(ggplot2)
 
-#4)	Create a histogram using GGPLOT for the population and a different histogram for the murder rate#use library by importing ggplot2
-plot_population <- qplot(merged_data$POPESTIMATE2017, geom="histogram")                                    #
+#4)	Create a histogram using GGPLOT for the population and a different histogram for the murder rate
+
+plot_population <- qplot(merged_data$POPESTIMATE2017, geom="histogram")                                    #use ggplot2 library by importing ggplot2
 
 
 plot_murder_rate <- qplot(merged_data$Murder, geom="histogram",
