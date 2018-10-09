@@ -1,5 +1,5 @@
 
-resultant_dataframe <- clean_data()
+resultant_dataframe <- NULL
 
 clean_data <- function() {           # function defination
   
