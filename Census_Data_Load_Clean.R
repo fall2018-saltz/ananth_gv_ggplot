@@ -2,7 +2,7 @@
 
 clean_data <- function(data) {           # function defination
   
-  length_data <- nrow(data)                                                                                                                               #Compute length using nrow to get index of last row.
+  length_data <- nrow(data)               # get length of the dataframe using nrow                                                                                                                #Compute length using nrow to get index of last row.
   data <- data[-length_data, ]
   data <- data[-1, ]                                   # Remove first row which has USA
   nrow(data)                             # Displays the length of modified data frame = 51
@@ -18,7 +18,7 @@ clean_data <- function(data) {           # function defination
   return(data)                           # return clean data frame.
 }
 
-resultant_dataframe <- clean_data(data)
+resultant_dataframe <- clean_data(data)  # call the function with data as paramenter got from the previous linked rscript output.
 
-resultant_dataframe
+resultant_dataframe                      # resultant_dataframe is input to next module
   
