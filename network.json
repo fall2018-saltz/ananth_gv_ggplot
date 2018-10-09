@@ -3,7 +3,19 @@
         "agauribi"
     ],
     "created_at": "2018-10-09 16:58:34",
-    "edges": [],
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "explore_data",
+                    "output": "resultant_dataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Load_and_Clean_Data.R",
+            "target": "DataExploration.R"
+        }
+    ],
     "nodes": [
         {
             "assigned_to": "agauribi",
@@ -16,6 +28,6 @@
             "name": "DataExploration.R"
         }
     ],
-    "updated_at": "2018-10-09 17:33:47",
+    "updated_at": "2018-10-09 17:35:07",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
