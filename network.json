@@ -35,6 +35,16 @@
             ],
             "source": "Census_Data_Load_Clean.R",
             "target": "Merged_Data.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "merged_data",
+                    "type": "png"
+                }
+            ],
+            "source": "Merged_Data.R",
+            "target": "Ggplot_population.png"
         }
     ],
     "nodes": [
@@ -63,6 +73,6 @@
             "name": "Ggplot_population.png"
         }
     ],
-    "updated_at": "2018-10-09 21:17:10",
+    "updated_at": "2018-10-09 21:17:32",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
