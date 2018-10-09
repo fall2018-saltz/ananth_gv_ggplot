@@ -19,4 +19,6 @@ clean_data <- function(data) {           # function defination
 }
 
 resultant_dataframe <- clean_data(data)
+
+resultant_dataframe
   
