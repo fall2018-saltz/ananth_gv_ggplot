@@ -24,6 +24,17 @@
             ],
             "source": "US_Arrests.R",
             "target": "Merged_Data.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "us_census",
+                    "output": "resultant_dataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Census_Data_Load_Clean.R",
+            "target": "Merged_Data.R"
         }
     ],
     "nodes": [
@@ -47,6 +58,6 @@
             "name": "Merged_Data.R"
         }
     ],
-    "updated_at": "2018-10-09 20:21:21",
+    "updated_at": "2018-10-09 20:22:15",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
