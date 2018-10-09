@@ -15,7 +15,9 @@ library(ggplot2)
 
 plot_population <- qplot(merged_data$POPESTIMATE2017, geom="histogram")                                    #use ggplot2 library by importing ggplot2
 
-plot_population <- qplot(merged_data$POPESTIMATE2017, geom="histogram")
+plot_population <- qplot(merged_data$Murder, geom="histogram")
+
+plot_population <- qplot(merged_data$Assault, geom="histogram")
 
 
 plot_murder_rate <- qplot(merged_data$Murder, geom="histogram",
