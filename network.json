@@ -11,18 +11,21 @@
                     "type": "csv"
                 }
             ],
-            "source": "clean.R",
+            "source": "Load_and_Clean_Data.R",
             "target": "data.csv"
         }
     ],
     "nodes": [
         {
-            "name": "clean.R"
+            "name": "data.csv"
         },
         {
-            "name": "data.csv"
+            "assigned_to": "agauribi",
+            "desc": "Load US Census Data and US Arrests Data and create dataframe",
+            "name": "Load_and_Clean_Data.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 17:07:16",
+    "updated_at": "2018-10-09 17:08:51",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
