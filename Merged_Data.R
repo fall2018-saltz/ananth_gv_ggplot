@@ -45,3 +45,6 @@ population_box_plot <- ggplot(data = merged_data, aes(x = "Population", y = merg
 
 murder_box_plot <- ggplot(data = merged_data, aes(x = "Murder Rate", y = merged_data$Murder)) +                      # use ggplot function to declare varibles to be plotted such as x axis and y axis with respective dataframe columns
   geom_boxplot() # geom_boxplot is used to reresent the variables declared in the box plot format
+
+ 
+# I feel both the representations are useful at times. It depends upon what we are looking for. Box plots seem more helpful if we are looking at medians, percentiles and aggregations. It gives us an overall Understanding
