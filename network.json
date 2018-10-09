@@ -65,6 +65,16 @@
             ],
             "source": "Merged_Data.R",
             "target": "Box_plot_population.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder_box_plot",
+                    "type": "png"
+                }
+            ],
+            "source": "Merged_Data.R",
+            "target": "murder_box_plot.png"
         }
     ],
     "nodes": [
@@ -102,6 +112,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 21:52:29",
+    "updated_at": "2018-10-09 21:52:35",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
