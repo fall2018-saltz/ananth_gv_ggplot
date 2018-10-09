@@ -7,7 +7,9 @@ merged_data <- merge(us_arrest, us_census, by.x = "row.names", by.y = c("NAME"),
 
 
 
-library(ggplot2)                                                                                                #use library by importing ggplot2
+# Step B: Explore the Data – Understanding distributions
+
+library(ggplot2)                                                                                           #use library by importing ggplot2
 plot_population <- qplot(merged_data$POPESTIMATE2017, geom="histogram")                                    #
 
 
