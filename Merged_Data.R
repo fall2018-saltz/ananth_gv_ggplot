@@ -37,9 +37,11 @@ plot_murder_rate_labelled <- qplot(merged_data$Murder, geom="histogram",
       xlim = c(0, 20))                                       # Range Limit x range
       
   
-#5)	Create a boxplot for the population, and a different boxplot for the murder rate.      
-population_box_plot <- ggplot(data = merged_data, aes(x = "Population", y = merged_data$POPESTIMATE2017)) + 
-  geom_boxplot() # I set the y axis scale so the plot looks better
+#5)	Create a boxplot for the population, and a different boxplot for the murder rate.
 
-murder_box_plot <- ggplot(data = merged_data, aes(x = "Population", y = merged_data$Murder)) + 
-  geom_boxplot() # I set the y axis scale so the plot looks better
+
+population_box_plot <- ggplot(data = merged_data, aes(x = "Population", y = merged_data$POPESTIMATE2017)) +         # use ggplot function to declare varibles to be plotted such as x axis and y axis with respective dataframe columns
+  geom_boxplot() # geom_boxplot is used to reresent the variables declared in the box plot format
+
+murder_box_plot <- ggplot(data = merged_data, aes(x = "Murder Rate", y = merged_data$Murder)) +                      # use ggplot function to declare varibles to be plotted such as x axis and y axis with respective dataframe columns
+  geom_boxplot() # geom_boxplot is used to reresent the variables declared in the box plot format
