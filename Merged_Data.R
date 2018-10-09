@@ -17,6 +17,6 @@ plot_murder_rate <- qplot(merged_data$Murder, geom="histogram",
       xlim = c(0, 20))
       
       
-population_box_plot < - ggplot(data = merged_data, aes(x = "Population", y = merged_data$POPESTIMATE2017)) + 
+population_box_plot <- ggplot(data = merged_data, aes(x = "Population", y = merged_data$POPESTIMATE2017)) + 
   geom_boxplot() # I set the y axis scale so the plot looks better
 
