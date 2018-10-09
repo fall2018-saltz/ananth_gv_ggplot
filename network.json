@@ -10,8 +10,12 @@
             "desc": "Load US Census Data and US Arrests Data and create dataframe",
             "name": "Load_and_Clean_Data.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "Explore the resulting aggregated dataframe",
+            "name": "DataExploration.R"
         }
     ],
-    "updated_at": "2018-10-09 17:32:32",
+    "updated_at": "2018-10-09 17:33:47",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
