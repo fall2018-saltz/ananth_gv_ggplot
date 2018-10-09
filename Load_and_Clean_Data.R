@@ -17,5 +17,3 @@ clean_data <- function() {           # function defination
   
   return(data)                           # return clean data frame.
 }
-
-resultant_dataframe <- clean_data() 
