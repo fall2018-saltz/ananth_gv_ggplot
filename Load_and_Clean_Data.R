@@ -18,4 +18,4 @@ clean_data <- function() {           # function defination
   return(data)                           # return clean data frame.
 }
 
-dataset <- clean_data() 
+resultant_dataframe <- clean_data() 
