@@ -26,10 +26,16 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "agauribi",
             "desc": "",
-            "name": "US_Arrests.R"
+            "name": "US_Arrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "Merged_Data.R"
         }
     ],
-    "updated_at": "2018-10-09 20:19:01",
+    "updated_at": "2018-10-09 20:20:22",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
