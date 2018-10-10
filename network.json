@@ -195,12 +195,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "assigned_to": "agauribi",
-            "desc": "",
-            "name": "StepD.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "Hsitogram_population.png"
         },
         {
@@ -265,8 +259,14 @@
             "desc": "Which State had the Most Murders \u2013 bar charts",
             "name": "StepC.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Explore Murders \u2013 scatter chart",
+            "name": "StepD.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 00:51:24",
+    "updated_at": "2018-10-10 00:51:46",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
