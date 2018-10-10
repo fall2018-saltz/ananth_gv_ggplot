@@ -207,8 +207,11 @@
         },
         {
             "name": "BarChart_murder_state_Filled.png"
+        },
+        {
+            "name": "BarChart_murder_state_sorted.png"
         }
     ],
-    "updated_at": "2018-10-10 00:29:57",
+    "updated_at": "2018-10-10 00:30:15",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
