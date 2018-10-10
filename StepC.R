@@ -3,6 +3,7 @@
 
 #7)	Calculate the number of murders per state
 
+library(ggplot2)  
 calculated_murders_perstate <- merged_data[,0:2]
 
 #8)	Generate a bar chart, with the number of murders per state
