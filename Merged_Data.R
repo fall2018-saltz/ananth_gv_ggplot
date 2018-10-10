@@ -66,6 +66,12 @@ calculated_murders_perstate <- merged_data[,0:2]
 
 #8)	Generate a bar chart, with the number of murders per state
 
+ggplot() + geom_col(data = merged_data, aes(x = factor(Row.names), y = merged_data$Murder)) + 
+  ggtitle("Total Murders") +
+  labs(x="State",y="Murder rate") + 
+  theme(plot.title = element_text(family = "Trebuchet MS", color="#666666", face="bold", size=15, hjust=0)) +
+  theme(axis.title = element_text(family = "Trebuchet MS", color="#666666", face="bold", size=15))
+
 
 
 
