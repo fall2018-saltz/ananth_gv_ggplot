@@ -20,7 +20,7 @@ plot_rape <- qplot(merged_data$Rape, geom="histogram")                          
 # due to bucket sizing, bin width and range. By adding the labels, bandwidth, fill, title, range and color- histograms are better represented as below.
 
 plot_murder_rate_labelled <- qplot(merged_data$Murder, geom="histogram",
-                                   bandwidth = 0.5,                                                                       
+                                   binwidth = 0.5,                                                                       
                                    main = "Histogram for Population",                     # Title
                                    xlab = "Murder",                                       # X axis label
                                    ylab = "count",                                        # Y axis label
