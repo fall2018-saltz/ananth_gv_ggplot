@@ -81,9 +81,6 @@
             "task_status": "in progress"
         },
         {
-            "name": "Gplot_assault_rate.png"
-        },
-        {
             "assigned_to": "agauribi",
             "desc": "Load US Census Data clean and create dataframe",
             "name": "Census_Data_Load_Clean.R",
@@ -110,6 +107,6 @@
             "name": "StepD.R"
         }
     ],
-    "updated_at": "2018-10-10 00:20:54",
+    "updated_at": "2018-10-10 00:20:58",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
