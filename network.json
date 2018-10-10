@@ -127,8 +127,12 @@
             "desc": "",
             "name": "StepB.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "StepC.R"
         }
     ],
-    "updated_at": "2018-10-10 00:17:09",
+    "updated_at": "2018-10-10 00:17:23",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
