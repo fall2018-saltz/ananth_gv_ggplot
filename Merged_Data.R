@@ -64,4 +64,7 @@ murder_box_plot <- ggplot(data = merged_data, aes(x = "Murder Rate", y = merged_
 
 calculated_murders_perstate <- merged_data[,0:2]
 
+#8)	Generate a bar chart, with the number of murders per state
+
+
 
