@@ -74,7 +74,7 @@
                 }
             ],
             "source": "Merged_Data.R",
-            "target": "murder_box_plot.png"
+            "target": "Gplot_assault_rate.png"
         }
     ],
     "nodes": [
@@ -97,7 +97,7 @@
             "name": "Box_plot_population.png"
         },
         {
-            "name": "murder_box_plot.png"
+            "name": "Gplot_assault_rate.png"
         },
         {
             "assigned_to": "agauribi",
@@ -112,6 +112,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 00:11:12",
+    "updated_at": "2018-10-10 00:12:24",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
