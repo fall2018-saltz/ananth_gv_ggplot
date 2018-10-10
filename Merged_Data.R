@@ -73,5 +73,6 @@ ggplot() + geom_col(data = merged_data, aes(x = factor(Row.names), y = merged_da
   theme(axis.title = element_text(family = "Trebuchet MS", color="#666666", face="bold", size=15))
 
 
+#9)	Generate a bar chart, with the number of murders per state. Rotate text (on the X axis), so we can see x labels, also add a title named “Total Murders”.
 
 
