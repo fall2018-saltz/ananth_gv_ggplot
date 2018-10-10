@@ -100,5 +100,7 @@ ggplot() + geom_col(data = merged_data, aes(x = reorder(factor(Row.names), -merg
   theme(axis.title = element_text(family = "Trebuchet MS", color="#666666", face="bold", size=15))
 
 
+#Step D: Explore Murders – scatter chart
+
 #12)Generate a scatter plot – have population on the X axis, the percent over 18 on the y axis, and the size & color represent the murder rate
 
