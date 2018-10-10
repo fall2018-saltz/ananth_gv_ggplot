@@ -256,17 +256,17 @@
         },
         {
             "assigned_to": "agauribi",
-            "desc": "Which State had the Most Murders \u2013 bar charts",
-            "name": "StepC.R",
+            "desc": "Explore Murders \u2013 scatter chart",
+            "name": "StepD.R",
             "task_status": "completed"
         },
         {
             "assigned_to": "agauribi",
-            "desc": "Explore Murders \u2013 scatter chart",
-            "name": "StepD.R",
+            "desc": "Which State had the Most Murders \u2013 bar charts",
+            "name": "StepC.R",
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-10 03:24:32",
+    "updated_at": "2018-10-10 03:27:00",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
