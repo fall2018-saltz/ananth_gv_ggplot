@@ -17,10 +17,10 @@ plot_rape <- qplot(merged_data$Rape, geom="histogram")                          
 
 
 # The Parameters to be adjusted for other histograms to look fine are to add attributes that make the histogram readable. Currently the histogram is not distributed in the right way 
-# due to bucket sizing and range. By adding the labels, bandwidth, fill, title, range and color- histograms are better represented as below.
+# due to bucket sizing, bin width and range. By adding the labels, bandwidth, fill, title, range and color- histograms are better represented as below.
 
 plot_murder_rate_labelled <- qplot(merged_data$Murder, geom="histogram",
-                                   bandwidth = 0.5,                                                                       
+                                   binwidth = 0.5,                                                                       
                                    main = "Histogram for Population",                     # Title
                                    xlab = "Murder",                                       # X axis label
                                    ylab = "count",                                        # Y axis label
