@@ -29,6 +29,10 @@ plot_murder_rate_labelled <- qplot(merged_data$Murder, geom="histogram",
                                    xlim = c(0, 20))                                       # Range Limit x range
 
 
+
+
+
+
 #5)	Create a boxplot for the population, and a different boxplot for the murder rate.
 
 
@@ -37,6 +41,10 @@ population_box_plot <- ggplot(data = merged_data, aes(x = "Population", y = merg
 
 murder_box_plot <- ggplot(data = merged_data, aes(x = "Murder Rate", y = merged_data$Murder)) +                      # use ggplot function to declare varibles to be plotted such as x axis and y axis with respective dataframe columns
   geom_boxplot() # geom_boxplot is used to reresent the variables declared in the box plot format
+
+
+
+
 
 
 #6)	Create a block comment explaining which visualization (boxplot or histogram) you thought was more helpful (explain why)
