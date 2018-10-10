@@ -265,8 +265,11 @@
             "desc": "Explore Murders \u2013 scatter chart",
             "name": "StepD.R",
             "task_status": "completed"
+        },
+        {
+            "name": "sample.png"
         }
     ],
-    "updated_at": "2018-10-10 00:56:07",
+    "updated_at": "2018-10-10 03:19:40",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
