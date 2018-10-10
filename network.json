@@ -23,7 +23,7 @@
                 }
             ],
             "source": "US_Arrests.R",
-            "target": "Merged_Data.R"
+            "target": "StepA.R"
         },
         {
             "ports": [
@@ -34,7 +34,7 @@
                 }
             ],
             "source": "Census_Data_Load_Clean.R",
-            "target": "Merged_Data.R"
+            "target": "StepA.R"
         },
         {
             "ports": [
@@ -44,7 +44,7 @@
                     "type": "r_obj"
                 }
             ],
-            "source": "Merged_Data.R",
+            "source": "StepA.R",
             "target": "StepB.R"
         },
         {
@@ -55,7 +55,7 @@
                     "type": "r_obj"
                 }
             ],
-            "source": "Merged_Data.R",
+            "source": "StepA.R",
             "target": "StepC.R"
         },
         {
@@ -66,7 +66,7 @@
                     "type": "r_obj"
                 }
             ],
-            "source": "Merged_Data.R",
+            "source": "StepA.R",
             "target": "StepD.R"
         },
         {
@@ -197,12 +197,6 @@
         {
             "assigned_to": "agauribi",
             "desc": "",
-            "name": "Merged_Data.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "agauribi",
-            "desc": "",
             "name": "StepC.R",
             "task_status": "in progress"
         },
@@ -265,8 +259,14 @@
             "desc": "Load US Census Data clean and create dataframe",
             "name": "Census_Data_Load_Clean.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Merge data set from US Arrest and Census data frame",
+            "name": "StepA.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-10 00:40:31",
+    "updated_at": "2018-10-10 00:42:03",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
