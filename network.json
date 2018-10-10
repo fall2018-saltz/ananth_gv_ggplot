@@ -1,0 +1,272 @@
+{
+    "collaborators": [
+        "agauribi"
+    ],
+    "created_at": "2018-10-09 16:58:34",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "Census_Data_Load_Clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "us_arrest",
+                    "output": "arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "US_Arrests.R",
+            "target": "StepA.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "us_census",
+                    "output": "resultant_dataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Census_Data_Load_Clean.R",
+            "target": "StepA.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "StepA.R",
+            "target": "StepB.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "StepA.R",
+            "target": "StepC.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "StepA.R",
+            "target": "StepD.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot_population",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB.R",
+            "target": "Hsitogram_population.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot_murder",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB.R",
+            "target": "Histogram_murder_rate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot_assault",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB.R",
+            "target": "Histogram_assault_rate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot_rape",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB.R",
+            "target": "Histogram_rape_rate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot_murder_rate_labelled",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB.R",
+            "target": "Histogram_labelled.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "population_box_plot",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB.R",
+            "target": "Boxplot_population.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder_box_plot",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB.R",
+            "target": "Boxplot_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bar_chart_murder_state",
+                    "type": "png"
+                }
+            ],
+            "source": "StepC.R",
+            "target": "BarChart_murder_state.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bar_chart_murder_state_axis_vertical",
+                    "type": "png"
+                }
+            ],
+            "source": "StepC.R",
+            "target": "BarChart_murder_state_axis.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bar_chart_murder_state_sorted",
+                    "type": "png"
+                }
+            ],
+            "source": "StepC.R",
+            "target": "BarChart_murder_state_sorted.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bar_chart_murder_state_filled",
+                    "type": "png"
+                }
+            ],
+            "source": "StepC.R",
+            "target": "BarChart_murder_state_Filled.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatter_plot",
+                    "type": "png"
+                }
+            ],
+            "source": "StepD.R",
+            "target": "ScatterChart_murder.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "name": "Hsitogram_population.png"
+        },
+        {
+            "name": "Histogram_murder_rate.png"
+        },
+        {
+            "name": "Histogram_assault_rate.png"
+        },
+        {
+            "name": "Histogram_rape_rate.png"
+        },
+        {
+            "name": "Histogram_labelled.png"
+        },
+        {
+            "name": "Boxplot_population.png"
+        },
+        {
+            "name": "Boxplot_murder.png"
+        },
+        {
+            "name": "BarChart_murder_state.png"
+        },
+        {
+            "name": "BarChart_murder_state_axis.png"
+        },
+        {
+            "name": "BarChart_murder_state_Filled.png"
+        },
+        {
+            "name": "BarChart_murder_state_sorted.png"
+        },
+        {
+            "name": "ScatterChart_murder.png"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Step B: Explore the Data \u2013 Understanding distributions",
+            "name": "StepB.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Load US Arrest DataSet",
+            "name": "US_Arrests.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Load US Census Data clean and create dataframe",
+            "name": "Census_Data_Load_Clean.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Merge data set from US Arrest and Census data frame",
+            "name": "StepA.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Which State had the Most Murders \u2013 bar charts",
+            "name": "StepC.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Explore Murders \u2013 scatter chart",
+            "name": "StepD.R",
+            "task_status": "completed"
+        }
+    ],
+    "updated_at": "2018-10-10 00:56:07",
+    "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
+}
