@@ -265,8 +265,11 @@
             "desc": "Step B: Explore the Data \u2013 Understanding distributions",
             "name": "StepB.R",
             "task_status": "completed"
+        },
+        {
+            "name": "Histogram.png"
         }
     ],
-    "updated_at": "2018-10-10 17:40:54",
+    "updated_at": "2018-10-10 17:41:03",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
