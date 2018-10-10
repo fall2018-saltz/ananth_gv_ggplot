@@ -118,8 +118,11 @@
         },
         {
             "name": "Hsitogram_population.png"
+        },
+        {
+            "name": "Histogram_murder_rate.png"
         }
     ],
-    "updated_at": "2018-10-10 00:21:37",
+    "updated_at": "2018-10-10 00:21:57",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
