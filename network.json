@@ -39,46 +39,6 @@
         {
             "ports": [
                 {
-                    "output": "plot_population",
-                    "type": "png"
-                }
-            ],
-            "source": "Merged_Data.R",
-            "target": "Ggplot_population.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "population_box_plot",
-                    "type": "png"
-                }
-            ],
-            "source": "Merged_Data.R",
-            "target": "Box_plot_population.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "plot_murder",
-                    "type": "png"
-                }
-            ],
-            "source": "Merged_Data.R",
-            "target": "Ggplot_murder_rate.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "plot_rape",
-                    "type": "png"
-                }
-            ],
-            "source": "Merged_Data.R",
-            "target": "Gplot_assault_rate.png"
-        },
-        {
-            "ports": [
-                {
                     "input": "merged_data",
                     "output": "merged_data",
                     "type": "r_obj"
@@ -121,9 +81,6 @@
             "task_status": "in progress"
         },
         {
-            "name": "Ggplot_population.png"
-        },
-        {
             "name": "Ggplot_murder_rate.png"
         },
         {
@@ -159,6 +116,6 @@
             "name": "StepD.R"
         }
     ],
-    "updated_at": "2018-10-10 00:17:59",
+    "updated_at": "2018-10-10 00:20:46",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
