@@ -51,3 +51,4 @@ murder_box_plot <- ggplot(data = merged_data, aes(x = "Murder Rate", y = merged_
 # of the data in a fairly simple manner. If i wanted calculations such as quartile distribution on population or any paramenter, i would choose box plot.
 
 #However if i wanted a graphical distribution of population in the assending or descending order for the entire data set, histograms are prefarable. It conveys more information to the viewer giving him an understanding of the distribution easily. Histograms can be used for categorical comparisions parallely. I could have distributions for male and femal categorical
+# variables and also have the count displayed, which makes it easy for data decisions. 
