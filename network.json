@@ -85,7 +85,7 @@
                 }
             ],
             "source": "Merged_Data.R",
-            "target": "BoxPlot_Data.R"
+            "target": "StepB.R"
         }
     ],
     "nodes": [
@@ -123,10 +123,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "agauribi",
             "desc": "",
-            "name": "BoxPlot_Data.R"
+            "name": "StepB.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 00:14:02",
+    "updated_at": "2018-10-10 00:17:09",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
