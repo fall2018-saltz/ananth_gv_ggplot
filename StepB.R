@@ -13,7 +13,7 @@ plot_assault <- qplot(merged_data$Assault, geom="histogram")                    
 
 plot_rape <- qplot(merged_data$Rape, geom="histogram")                                           # use qplot function to plot rape distribution on a histogram. geom is used to represent what type of graph is used to display            
 
-
+g1<- ggplot(merged_data, aes(x= merged_data$POPESTIMATE2017)) + geom_histogram(color = "black", fill= "red")+ ggtitle("states population")
 
 # The Parameters to be adjusted for other histograms to look fine are to add attributes that make the histogram readable. Currently the histogram is not distributed in the right way 
 # due to bucket sizing and range. By adding the labels, bandwidth, fill, title, range and color- histograms are better represented as below.
