@@ -232,12 +232,6 @@
         },
         {
             "assigned_to": "agauribi",
-            "desc": "Step B: Explore the Data \u2013 Understanding distributions",
-            "name": "StepB.R",
-            "task_status": "completed"
-        },
-        {
-            "assigned_to": "agauribi",
             "desc": "Load US Arrest DataSet",
             "name": "US_Arrests.R",
             "task_status": "completed"
@@ -256,17 +250,23 @@
         },
         {
             "assigned_to": "agauribi",
+            "desc": "Explore Murders \u2013 scatter chart",
+            "name": "StepD.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "agauribi",
             "desc": "Which State had the Most Murders \u2013 bar charts",
             "name": "StepC.R",
             "task_status": "completed"
         },
         {
             "assigned_to": "agauribi",
-            "desc": "Explore Murders \u2013 scatter chart",
-            "name": "StepD.R",
+            "desc": "Step B: Explore the Data \u2013 Understanding distributions",
+            "name": "StepB.R",
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-10 00:56:07",
+    "updated_at": "2018-10-10 17:40:54",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
