@@ -55,4 +55,11 @@ murder_box_plot <- ggplot(data = merged_data, aes(x = "Murder Rate", y = merged_
 
 
 
+
+
+
 #Step C: Which State had the Most Murders – bar charts
+
+#7)	Calculate the number of murders per state
+
+
