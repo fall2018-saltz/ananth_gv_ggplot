@@ -271,15 +271,15 @@
             "task_status": "completed"
         },
         {
+            "name": "Histogram.png"
+        },
+        {
             "assigned_to": "agauribi",
             "desc": "Step B: Explore the Data \u2013 Understanding distributions",
             "name": "StepB.R",
             "task_status": "completed"
-        },
-        {
-            "name": "Histogram.png"
         }
     ],
-    "updated_at": "2018-10-10 17:41:19",
+    "updated_at": "2018-10-10 17:50:13",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
