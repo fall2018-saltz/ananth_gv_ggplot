@@ -97,6 +97,17 @@
             ],
             "source": "Merged_Data.R",
             "target": "StepC.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merged_Data.R",
+            "target": "StepD.R"
         }
     ],
     "nodes": [
@@ -148,6 +159,6 @@
             "name": "StepD.R"
         }
     ],
-    "updated_at": "2018-10-10 00:17:51",
+    "updated_at": "2018-10-10 00:17:59",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
