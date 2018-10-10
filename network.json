@@ -188,16 +188,6 @@
             ],
             "source": "StepD.R",
             "target": "ScatterChart_murder.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "g1",
-                    "type": "png"
-                }
-            ],
-            "source": "StepC.R",
-            "target": "sample.png"
         }
     ],
     "nodes": [
@@ -275,11 +265,8 @@
             "desc": "Explore Murders \u2013 scatter chart",
             "name": "StepD.R",
             "task_status": "completed"
-        },
-        {
-            "name": "sample.png"
         }
     ],
-    "updated_at": "2018-10-10 03:21:56",
+    "updated_at": "2018-10-10 03:24:32",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
