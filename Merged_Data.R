@@ -69,8 +69,8 @@ calculated_murders_perstate <- merged_data[,0:2]
 ggplot() + geom_col(data = merged_data, aes(x = factor(Row.names), y = merged_data$Murder)) + 
   ggtitle("Total Murders") +
   labs(x="State",y="Murder rate") + 
-  theme(plot.title = element_text(family = "Trebuchet MS", color="#666666", face="bold", size=15, hjust=0)) +
-  theme(axis.title = element_text(family = "Trebuchet MS", color="#666666", face="bold", size=15))
+  theme(plot.title = element_text(color="#666666", face="bold", size=15, hjust=0)) +
+  theme(axis.title = element_text(color="#666666", face="bold", size=15))
 
 
 #9)	Generate a bar chart, with the number of murders per state. Rotate text (on the X axis), so we can see x labels, also add a title named “Total Murders”.
@@ -78,8 +78,8 @@ ggplot() + geom_col(data = merged_data, aes(x = factor(Row.names), y = merged_da
 ggplot() + geom_col(data = merged_data, aes(x = factor(Row.names), y = merged_data$Murder)) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) + ggtitle("Total Murders") +
   labs(x="State",y="Murder rate") + 
-  theme(plot.title = element_text(family = "Trebuchet MS", color="#666666", face="bold", size=15, hjust=0)) +
-  theme(axis.title = element_text(family = "Trebuchet MS", color="#666666", face="bold", size=15))
+  theme(plot.title = element_text(color="#666666", face="bold", size=15, hjust=0)) +
+  theme(axis.title = element_text(color="#666666", face="bold", size=15))
 
 
 #10) Generate a new bar chart, the same as in the previous step, but also sort the x-axis by the murder rate
@@ -87,8 +87,8 @@ ggplot() + geom_col(data = merged_data, aes(x = factor(Row.names), y = merged_da
 ggplot() + geom_col(data = merged_data, aes(x = reorder(factor(Row.names), -merged_data$Murder, sum), y = merged_data$Murder)) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) + ggtitle("Total Murders") +
   labs(x="State",y="Murder rate") + 
-  theme(plot.title = element_text(family = "Trebuchet MS", color="#666666", face="bold", size=15, hjust=0)) +
-  theme(axis.title = element_text(family = "Trebuchet MS", color="#666666", face="bold", size=15))
+  theme(plot.title = element_text(color="#666666", face="bold", size=15, hjust=0)) +
+  theme(axis.title = element_text(color="#666666", face="bold", size=15))
 
 
 #11) Generate a third bar chart, the same as the previous step, but also showing percentOver18 as the color of the bar
@@ -96,8 +96,8 @@ ggplot() + geom_col(data = merged_data, aes(x = reorder(factor(Row.names), -merg
 ggplot() + geom_col(data = merged_data, aes(x = reorder(factor(Row.names), -merged_data$Murder, sum), y = merged_data$Murder, fill=merged_data$PCNT_POPEST18PLUS)) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) + ggtitle("Total Murders") +
   labs(x="State",y="Murder rate") + 
-  theme(plot.title = element_text(family = "Trebuchet MS", color="#666666", face="bold", size=15, hjust=0)) +
-  theme(axis.title = element_text(family = "Trebuchet MS", color="#666666", face="bold", size=15))
+  theme(plot.title = element_text(color="#666666", face="bold", size=15, hjust=0)) +
+  theme(axis.title = element_text(color="#666666", face="bold", size=15))
 
 
 
@@ -109,6 +109,6 @@ ggplot() + geom_col(data = merged_data, aes(x = reorder(factor(Row.names), -merg
 ggplot(merged_data, aes(x=merged_data$POPESTIMATE2017, y=merged_data$PCNT_POPEST18PLUS, size=merged_data$Murder)) +
   geom_point(shape=19, fill="blue", color="darkred") + ggtitle("Explore Murders") +
   labs(x="Population",y="Percentage of Population above 18") + 
-  theme(plot.title = element_text(family = "Trebuchet MS", color="#666666", face="bold", size=15, hjust=0)) +
-  theme(axis.title = element_text(family = "Trebuchet MS", color="#666666", face="bold", size=15))
+  theme(plot.title = element_text(color="#666666", face="bold", size=15, hjust=0)) +
+  theme(axis.title = element_text(color="#666666", face="bold", size=15))
 
