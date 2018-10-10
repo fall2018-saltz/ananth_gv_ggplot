@@ -82,6 +82,6 @@ ggplot() + geom_col(data = merged_data, aes(x = factor(Row.names), y = merged_da
   theme(axis.title = element_text(family = "Trebuchet MS", color="#666666", face="bold", size=15))
 
 
-#Generate a new bar chart, the same as in the previous step, but also sort the x-axis by the murder rate
+#10) Generate a new bar chart, the same as in the previous step, but also sort the x-axis by the murder rate
 
 
