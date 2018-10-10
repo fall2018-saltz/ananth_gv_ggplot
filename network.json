@@ -264,9 +264,9 @@
             "assigned_to": "agauribi",
             "desc": "Which State had the Most Murders \u2013 bar charts",
             "name": "StepC.R",
-            "task_status": "in progress"
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-10 00:51:16",
+    "updated_at": "2018-10-10 00:51:24",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
