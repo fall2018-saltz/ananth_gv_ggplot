@@ -157,8 +157,11 @@
         },
         {
             "name": "Histogram_rape_rate.png"
+        },
+        {
+            "name": "Histogram_labelled.png"
         }
     ],
-    "updated_at": "2018-10-10 00:23:21",
+    "updated_at": "2018-10-10 00:24:10",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
