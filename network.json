@@ -118,6 +118,16 @@
             ],
             "source": "StepB.R",
             "target": "Histogram_labelled.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "population_box_plot",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB.R",
+            "target": "Boxplot_population.png"
         }
     ],
     "nodes": [
@@ -175,6 +185,6 @@
             "name": "Boxplot_population.png"
         }
     ],
-    "updated_at": "2018-10-10 00:24:47",
+    "updated_at": "2018-10-10 00:24:59",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
