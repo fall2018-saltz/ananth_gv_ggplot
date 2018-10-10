@@ -41,6 +41,6 @@ bar_chart_murder_state_filled <- ggplot() + geom_col(data = merged_data, aes(x =
   theme(plot.title = element_text(color="#666666", face="bold", size=15, hjust=0)) +
   theme(axis.title = element_text(color="#666666", face="bold", size=15))
   
-g1<- ggplot(result, aes(x= merged_data$Murder)) + geom_histogram(binwidth = 5, color = "black", fill= "red")+ ggtitle("states population")
+g1<- ggplot(merged_data, aes(x= merged_data$Murder)) + geom_histogram(binwidth = 5, color = "black", fill= "red")+ ggtitle("states population")
 
 
