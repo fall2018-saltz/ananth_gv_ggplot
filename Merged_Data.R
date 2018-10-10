@@ -93,4 +93,12 @@ ggplot() + geom_col(data = merged_data, aes(x = reorder(factor(Row.names), -merg
 
 #11) Generate a third bar chart, the same as the previous step, but also showing percentOver18 as the color of the bar
 
+ggplot() + geom_col(data = merged_data, aes(x = reorder(factor(Row.names), -merged_data$Murder, sum), y = merged_data$Murder, fill=merged_data$PCNT_POPEST18PLUS)) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) + ggtitle("Total Murders") +
+  labs(x="State",y="Murder rate") + 
+  theme(plot.title = element_text(family = "Trebuchet MS", color="#666666", face="bold", size=15, hjust=0)) +
+  theme(axis.title = element_text(family = "Trebuchet MS", color="#666666", face="bold", size=15))
+
+
+#12)Generate a scatter plot – have population on the X axis, the percent over 18 on the y axis, and the size & color represent the murder rate
 
