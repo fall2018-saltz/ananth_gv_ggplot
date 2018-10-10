@@ -158,6 +158,16 @@
             ],
             "source": "StepC.R",
             "target": "BarChart_murder_state_axis.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bar_chart_murder_state_sorted",
+                    "type": "png"
+                }
+            ],
+            "source": "StepC.R",
+            "target": "BarChart_murder_state_sorted.png"
         }
     ],
     "nodes": [
@@ -232,6 +242,6 @@
             "name": "BarChart_murder_state_sorted.png"
         }
     ],
-    "updated_at": "2018-10-10 00:31:42",
+    "updated_at": "2018-10-10 00:32:08",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
