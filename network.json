@@ -215,8 +215,10 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "agauribi",
             "desc": "",
-            "name": "StepD.R"
+            "name": "StepD.R",
+            "task_status": "in progress"
         },
         {
             "name": "Hsitogram_population.png"
@@ -250,8 +252,11 @@
         },
         {
             "name": "BarChart_murder_state_sorted.png"
+        },
+        {
+            "name": "ScatterChart_murder.png"
         }
     ],
-    "updated_at": "2018-10-10 00:32:25",
+    "updated_at": "2018-10-10 00:34:49",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
