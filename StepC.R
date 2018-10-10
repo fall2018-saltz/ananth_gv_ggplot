@@ -40,5 +40,4 @@ bar_chart_murder_state_filled <- ggplot() + geom_col(data = merged_data, aes(x =
   labs(x="State",y="Murder rate") + 
   theme(plot.title = element_text(color="#666666", face="bold", size=15, hjust=0)) +
   theme(axis.title = element_text(color="#666666", face="bold", size=15))
-
-
+  
