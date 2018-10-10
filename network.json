@@ -178,6 +178,16 @@
             ],
             "source": "StepC.R",
             "target": "BarChart_murder_state_Filled.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatter_plot",
+                    "type": "png"
+                }
+            ],
+            "source": "StepD.R",
+            "target": "ScatterChart_murder.png"
         }
     ],
     "nodes": [
@@ -257,6 +267,6 @@
             "name": "ScatterChart_murder.png"
         }
     ],
-    "updated_at": "2018-10-10 00:34:49",
+    "updated_at": "2018-10-10 00:34:59",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
