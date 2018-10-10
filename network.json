@@ -68,6 +68,16 @@
             ],
             "source": "Merged_Data.R",
             "target": "StepD.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot_population",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB.R",
+            "target": "Hsitogram_population.png"
         }
     ],
     "nodes": [
@@ -110,6 +120,6 @@
             "name": "Hsitogram_population.png"
         }
     ],
-    "updated_at": "2018-10-10 00:21:23",
+    "updated_at": "2018-10-10 00:21:37",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
