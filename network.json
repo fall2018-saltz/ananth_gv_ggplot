@@ -98,6 +98,16 @@
             ],
             "source": "StepB.R",
             "target": "Histogram_assault_rate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot_rape",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB.R",
+            "target": "Histogram_rape_rate.png"
         }
     ],
     "nodes": [
@@ -149,6 +159,6 @@
             "name": "Histogram_rape_rate.png"
         }
     ],
-    "updated_at": "2018-10-10 00:23:12",
+    "updated_at": "2018-10-10 00:23:21",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
