@@ -197,12 +197,6 @@
         {
             "assigned_to": "agauribi",
             "desc": "",
-            "name": "StepC.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "agauribi",
-            "desc": "",
             "name": "StepD.R",
             "task_status": "in progress"
         },
@@ -265,8 +259,14 @@
             "desc": "Merge data set from US Arrest and Census data frame",
             "name": "StepA.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Which State had the Most Murders \u2013 bar charts",
+            "name": "StepC.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 00:42:03",
+    "updated_at": "2018-10-10 00:51:16",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
