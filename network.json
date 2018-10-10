@@ -169,8 +169,10 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "agauribi",
             "desc": "",
-            "name": "StepC.R"
+            "name": "StepC.R",
+            "task_status": "in progress"
         },
         {
             "desc": "",
@@ -196,8 +198,11 @@
         },
         {
             "name": "Boxplot_murder.png"
+        },
+        {
+            "name": "BarChart_murder_state.png"
         }
     ],
-    "updated_at": "2018-10-10 00:25:51",
+    "updated_at": "2018-10-10 00:29:06",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
