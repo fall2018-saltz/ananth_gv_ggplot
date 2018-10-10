@@ -69,7 +69,7 @@
         {
             "ports": [
                 {
-                    "output": "plot_assault",
+                    "output": "plot_rape",
                     "type": "png"
                 }
             ],
@@ -112,6 +112,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 00:11:07",
+    "updated_at": "2018-10-10 00:11:12",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
