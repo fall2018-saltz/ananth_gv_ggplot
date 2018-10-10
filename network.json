@@ -128,6 +128,16 @@
             ],
             "source": "StepB.R",
             "target": "Boxplot_population.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder_box_plot",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB.R",
+            "target": "Boxplot_murder.png"
         }
     ],
     "nodes": [
@@ -188,6 +198,6 @@
             "name": "Boxplot_murder.png"
         }
     ],
-    "updated_at": "2018-10-10 00:25:42",
+    "updated_at": "2018-10-10 00:25:51",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
