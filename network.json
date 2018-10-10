@@ -88,6 +88,16 @@
             ],
             "source": "StepB.R",
             "target": "Histogram_murder_rate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot_assault",
+                    "type": "png"
+                }
+            ],
+            "source": "StepB.R",
+            "target": "Histogram_assault_rate.png"
         }
     ],
     "nodes": [
@@ -136,6 +146,6 @@
             "name": "Histogram_assault_rate.png"
         }
     ],
-    "updated_at": "2018-10-10 00:22:23",
+    "updated_at": "2018-10-10 00:22:35",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
