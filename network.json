@@ -75,6 +75,17 @@
             ],
             "source": "Merged_Data.R",
             "target": "Gplot_assault_rate.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merged_Data.R",
+            "target": "BoxPlot_Data.R"
         }
     ],
     "nodes": [
@@ -116,6 +127,6 @@
             "name": "BoxPlot_Data.R"
         }
     ],
-    "updated_at": "2018-10-10 00:13:29",
+    "updated_at": "2018-10-10 00:14:02",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
