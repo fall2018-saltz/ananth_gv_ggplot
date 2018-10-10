@@ -101,17 +101,17 @@
         },
         {
             "assigned_to": "agauribi",
-            "desc": "",
-            "name": "Merged_Data.R",
+            "desc": "Load US Census Data clean and create dataframe",
+            "name": "Census_Data_Load_Clean.R",
             "task_status": "in progress"
         },
         {
             "assigned_to": "agauribi",
-            "desc": "Load US Census Data clean and create dataframe",
-            "name": "Census_Data_Load_Clean.R",
+            "desc": "",
+            "name": "Merged_Data.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 23:37:29",
+    "updated_at": "2018-10-10 00:09:24",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
