@@ -81,9 +81,6 @@
             "task_status": "in progress"
         },
         {
-            "name": "Box_plot_population.png"
-        },
-        {
             "name": "Gplot_assault_rate.png"
         },
         {
@@ -113,6 +110,6 @@
             "name": "StepD.R"
         }
     ],
-    "updated_at": "2018-10-10 00:20:50",
+    "updated_at": "2018-10-10 00:20:54",
     "url": "https://github.com/fall2018-saltz/ananth_gv_ggplot"
 }
