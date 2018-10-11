@@ -4,11 +4,10 @@
 #7)	Calculate the number of murders per state
 
 library(ggplot2)                                                 # Load library ggplot2
-calculated_murders_perstate <- merged_data[,0:2]                 # Calculate murder per state by picking column 0 and column 2 state and murders respectively. Since state is alsready sorted. each state is unique with murder rate 
 
-library(dplyr)
-df1 <- select(merged_data, POPESTIMATE2017)
-df2 <- (merged_data$POPESTIMATE2017/100000)*merged_data$Murder
+library(dplyr)                                                   # use library dplyr to select columns using Name. This can also be done directly using datframe[].
+df1 <- select(merged_data, POPESTIMATE2017)                      # select function to select the required column from the dataframe.
+df2 <- (merged_data$POPESTIMATE2017/100000)*merged_data$Murder   # calculate the murder per state - Given murder per 100000 population, Number of Murders per state is calculated by dividing state population by 100000 and multiplying by the corresponding murder rate of the state.
 
 
 merged_data$NumberofMurders <- round(df2, digits = 0)
