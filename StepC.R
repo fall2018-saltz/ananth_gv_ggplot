@@ -6,7 +6,7 @@
 library(ggplot2)                                                 # Load library ggplot2
 calculated_murders_perstate <- merged_data[,0:2]                 # Calculate murder per state by picking column 0 and column 2 state and murders respectively. Since state is alsready sorted. each state is unique with murder rate 
 
-
+library(dplyr)
 df1 <- select(merged_data, POPESTIMATE2017)
 df2 <- (merged_data$POPESTIMATE2017/100000)*merged_data$Murder
 
